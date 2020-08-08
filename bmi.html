@@ -1,0 +1,29 @@
+<!DOCTYPE  html>
+<html  lang="en">
+<head>
+	<meta  charset="UTF-8">
+	<meta  name="viewport"  content="width=device-width, initial-scale=1.0">
+	<meta  http-equiv="X-UA-Compatible"  content="ie=edge">
+    <title>BMI Calculator</title>
+    <link  rel="stylesheet"  href="./style.css">
+</head>
+<body>
+    <h1>BMI Calculator</h1>
+    <div class="description">Body mass index (BMI) is a value derived from the mass (weight) and height of a person.
+         The BMI is defined as the body mass divided by the square of the body height, 
+        and is universally expressed in units of kg/m2, resulting from mass in kilograms and height in metres.
+        The BMI is a convenient rule of thumb used to broadly categorize a person as underweight, normal weight, 
+        overweight, or obese based on tissue mass (muscle, fat, and bone) and height. Commonly accepted BMI ranges
+        are underweight (under 18.5 kg/m2), 
+        ormal weight (18.5 to 25), overweight (25 to 30), and obese (over 30).</div>
+        <p class="source">Source: <a href="https://en.wikipedia.org/wiki/Body_mass_index" target="_blank">Wikipedia</a></p>
+    <input  type="text"  id="weight"  placeholder="Your weight in kg">
+    <input  type="text"  id="height"  placeholder="Your height in cm">
+ 
+    <button onclick="calculateBMI()"id="Calculate">Calculate</button>
+	<div  id="results"></div>
+
+    <script  src="./bmiCalculator.js"></script>
+	<script  src="./bmiUI.js"></script>
+</body>
+</html>
